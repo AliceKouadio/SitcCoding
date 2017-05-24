@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<!DOCTYPE KOU[
+<!ELEMENT KOU (nom,prenom+,datenaissance,sexe,situationmatrimoniale,diplome,lieuhabitation,niveauetude,filiereetude,tel?,email,adresse) >
+<!ELEMENT nom (#PCDATA) >
+<!ELEMENT prenom (#PCDATA) >
+<!ELEMENT datenaissance (#PCDATA) >
+<!ELEMENT sexe (#PCDATA) >
+<!ATTLIST personne sexe (H | F) "H">
+<!ELEMENT situationmatrimoniale (#PCDATA) >
+<!ELEMENT diplome (#PCDATA) >
+<!ELEMENT lieuhabitation (#PCDATA) >
+<!ELEMENT niveauetude (#PCDATA) >
+<!ELEMENT filiereetude (#PCDATA) >
+<!ELEMENT tel (#PCDATA) >
+<!ELEMENT email (#PCDATA) >
+<!ELEMENT adresse (#PCDATA)>
+]>
+
+<KOU>
+	<nom>Kouadio</nom>
+	<prenom>Amoin</prenom>
+	<prenom>Alice</prenom>
+	<datenaissance>10-02-1985</datenaissance>
+	<sexe>Feminin</sexe>
+	<situationmatrimoniale>Celibataire</situationmatrimoniale>
+	<diplome>Licence en Sciences de l'Information Documentaire</diplome>
+	<lieuhabitation>Abidjan</lieuhabitation>
+	<niveauetude>Licence3</niveauetude>
+	<filiereetude>Sciences de l'Information Documentaire</filiereetude>
+	<tel>57379523</tel>
+	<email>Kamalic2006@gmail.com</email>
+	<adresse>21BP3756Abidjan21</adresse>
+</KOU>
